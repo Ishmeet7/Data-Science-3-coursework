@@ -44,3 +44,19 @@ for attribute_new in y:
    for attribute in list2_of_attributes:
        print(np.corrcoef("attribute","attribute_new"))
        df.plot.scatter(x = attribute, y = attribute_new, title="scatter plot of "+str(attribute)+" vs. "+ str(attribute_new))
+       correlation_coefficient=np.corrcoef(attribute_array,attribute_new_array)[0][1]
+       print("The correlation coefficient of ",attribute,"with",attribute_new,"is ",correlation_coefficient)
+preg_array=df["pregs"].to_numpy(na_value='0')
+skin_array=df["skin"].to_numpy(na_value='0')
+plt.hist(preg_array)
+plt.title('Histogram of preg')
+plt.hist(skin_array)
+plt.title('Histogram of skin')
+df_groupby_class=df.groupby("class")
+df.groupby("class").hist("pregs")
+for attribute in list_of_attributes_1:
+  attribute_array=df[attribute].to_numpy(na_value='0')
+  plt.figure()
+
+  plt.boxplot(attribute_array)
+  plt.title("boxplot of "+str(attribute))
