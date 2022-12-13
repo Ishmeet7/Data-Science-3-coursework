@@ -37,7 +37,7 @@ b. ‘BMI’ and each of the other attributes, excluding ‘class’ .
 a. ‘Age’ with all other attributes (excluding ‘class’).
 b. ‘BMI’ with all other attributes (excluding ‘class’).
 4. Plot the histogram for the attributes ‘preg’ and ‘skin’ .
-5. Plot the histogram of attribute ‘preg’ for each of the 2 classes individually (Use
+5. Plot the histogram of attribute ‘preg’ for each of the 2 classes individually (Using
 “groupby” function to group the tuples according to their “class”)
 6. Obtain the boxplot for all the attribute excluding ‘class’ .
 
