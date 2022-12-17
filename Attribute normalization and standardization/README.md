@@ -32,11 +32,11 @@ Write a python program (with pandas)to read the given data and do the following:
 outliers (if at all any) in any attribute with the median of the respective attributes and do
 the following on outlier corrected data:
 
-a. Do the Min-Max normalization of the outlier corrected data to scale the attribute
-values in the range 5 to 12. Find the minimum and maximum values before and
-after performing the Min-Max normalization of the attributes.
+      a. Do the Min-Max normalization of the outlier corrected data to scale the attribute
+      values in the range 5 to 12. Find the minimum and maximum values before and
+      after performing the Min-Max normalization of the attributes.
 
-b. Find the mean and standard deviation of the attributes of the outlier corrected
-data. Standardize each selected attribute using the relation 𝑥̂n= (xn − μ)/σ where μ
-is mean and σ is standard deviation of that attribute. Compare the mean and
-standard deviations before and after the standardization.
+      b. Find the mean and standard deviation of the attributes of the outlier corrected
+      data. Standardize each selected attribute using the relation 𝑥̂n= (xn − μ)/σ where μ
+      is mean and σ is standard deviation of that attribute. Compare the mean and
+      standard deviations before and after the standardization.
