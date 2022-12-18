@@ -44,9 +44,6 @@ matrix, Σ = [[13 −3 ][−3 5]]
      c. Project the data on to the first and second Eigen direction individually and draw
   both the scatter plots superimposed on Eigen vectors
 
-     d. Reconstruct the data samples using both eigenvectors, say it 𝐃̂. Estimate
-  the reconstruction error between 𝐃̂ and D using Euclidean distance.
-
 2. Data frame used for PCA include only first 8 attributes (class attribute is excluded).
 Perform principal component analysis (PCA) on outlier corrected standardized data and do the followings:
 
