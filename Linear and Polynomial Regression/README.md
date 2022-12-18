@@ -72,18 +72,16 @@ of Rings (y-axis) on the test data for the best degree of the polynomial (p). Co
 on the scatter plot and compare it with that of in 1(d).
 
 4. Build a multivariate nonlinear regression model using polynomial regression to predict
-Rings. All the attributes other than the target attribute should be used as input to the model.
-a. Find the prediction accuracy on the training data for the different values of degree of
-the polynomial (p = 2, 3, 4, 5) using root mean squared error (RMSE). Plot the bar
-graph of RMSE (y-axis) vs different values of degree of the polynomial (x-axis).
-b. Find the prediction accuracy on the test data for the different values of degree of the
-polynomial (p = 2, 3, 4, 5) using root mean squared error (RMSE). Plot the bar graph
-of RMSE (y-axis) vs different values of degree of the polynomial (x-axis).
-(Note: The best fit model is chosen based on the p-value for which the test RMSE is
-minimum.)
-c. Plot the scatter plot of the actual number of Rings (x-axis) vs the predicted number
-of Rings (y-axis) on the test data for the best degree of the polynomial (p). Comment
-on the scatter plot and compare it with that of in 1(d)
+Rings. All the attributes other than the target attribute should be used as input to the model
+.
+
+    a. Find the prediction accuracy on the training data for the different values of degree of
+    the polynomial (p = 2, 3, 4, 5) using root mean squared error (RMSE). 
+
+    b. Find the prediction accuracy on the test data for the different values of degree of the
+    polynomial (p = 2, 3, 4, 5) using root mean squared error (RMSE). 
+
+
 
 
 
