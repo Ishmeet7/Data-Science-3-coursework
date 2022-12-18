@@ -82,7 +82,7 @@ separately. Use them to compute likelihood for a class. For computing likelihood
 expression of multivariate Gaussian density. (Do not use Gaussian Naïve Bayes function
 from sklearn).
 
-4. Build a Bayes classifier with multi-modal Gaussian distribution (GMM) with Q Gaussian
+4. Build a Bayes classifier with **multi-modal Gaussian distribution (GMM)** with Q Gaussian
 components (modes) as class conditional density for each class on the training data
 SteelPlateFaults-train.csv. Build a GMM with Q components for class1 and build
     a GMM with Q components for class2. Classify every test tuple using the Bayes classifier
