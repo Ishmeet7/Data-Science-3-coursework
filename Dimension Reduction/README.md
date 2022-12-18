@@ -52,12 +52,6 @@ Perform principal component analysis (PCA) on outlier corrected standardized dat
       eigenvalues of the two directions of projection. Also show the scatter plot of
       reduced dimensional data.
 
-      b. Plot all the eigenvalues in the descending order.
+      b. Plot all the eigenvalues .
 
-      c. Plot the reconstruction errors in terms of Euclidean distance considering the
-      different values of l (=1, 2, ..., 8). The x-axis is the l and y-axis is reconstruction
-      error in Euclidean distance. Print the covariance matrix of each of the l dimensional representations (l = 2, 3, ..., 8).
-
-      d. Give the covariance matrix for the original data (8-dimensional). Compare the
-      covariance matrix for the original data (8-dimensional) with that of the covariance
-      matrix for 8-dimensional representation obtained using PCA with l = 8.
+   
